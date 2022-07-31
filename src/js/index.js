@@ -22,7 +22,7 @@ btnAvancar.addEventListener('click',function(){
 })
 
 btnVoltar.addEventListener('click',function(){
-    if(cartaoAtual === cartoes.length - 3) {
+    if(cartaoAtual === cartoes.length - 6) {
         return;
     }
     esconderCartaoSelecionado();
